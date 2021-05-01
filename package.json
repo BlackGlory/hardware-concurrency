@@ -1,8 +1,8 @@
 {
   "name": "hardware-concurrency",
   "version": "0.1.0",
-  "description": "",
-  "keywords": [],
+  "description": "Utilities for the number of logical cores.",
+  "keywords": ["concurrency", "threads", "cores", "cpus"],
   "files": [
     "lib",
     "dist"

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2019"
+  , "module": "CommonJS"
+  , "lib": ["DOM", "DOM.Iterable", "ES2019.Object"]
+  , "strict": true
+  , "noUnusedLocals": true
+  , "noUnusedParameters": false
+  , "experimentalDecorators": true
+  , "emitDecoratorMetadata": false
+  , "esModuleInterop": true
+  , "baseUrl": "."
+  , "paths": {
+      "@src/*": ["src/*"]
+    , "@utils/*": ["src/utils/*"]
+    , "@test/*": ["__tests__/*"]
+    }
+  }
+}

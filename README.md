@@ -45,3 +45,11 @@ function minus1Cores(): number
 ```
 
 Equivalent to `Math.max(maxCores() - 1, 1)`.
+
+### minusCores
+
+```ts
+function minusCores(num: number): number
+```
+
+Equivalent to `Math.max(maxCores() - num, 1)`.

@@ -18,6 +18,10 @@ export const doubleCores =
     .get()
 
 export const minus1Cores =
-  new ValueGetter(() => Math.max(maxCores() - 1, 1))
+  new ValueGetter(() => minusCores(1))
     .memoize(cache)
     .get()
+
+export function minusCores(num: number): number {
+  return Math.max(maxCores() - num, 1)
+}
